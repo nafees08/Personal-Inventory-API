@@ -61,7 +61,7 @@ MONGO_URI=mongodb+srv://<username>:<password>@cluster0.xxxxx.mongodb.net/invento
 npm start
 ```
 
-Server runs on `http://localhost:3000`
+Server runs on `http://localhost:3001`
 
 ---
 
