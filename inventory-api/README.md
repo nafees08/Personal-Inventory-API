@@ -12,14 +12,25 @@ A RESTful API built with Node.js, Express.js, and MongoDB to manage a personal c
 ## Project Structure
 
 ```
-inventory-api/
-├── server.js
+.
 ├── .env
-├── models/
-│   └── Item.js
-└── routes/
-    └── items.js
+├── .gitignore
+├── package.json
+├── package-lock.json
+├── README.md
+├── node_modules/
+├── routes/
+│   └── items.js
+├── server.js
+└── models/
+    └── Item.js
 ```
+
+## Notes
+
+- `.env` is loaded from this folder by default.
+- To use a custom env file, set `DOTENV_PATH=/custom/path/.env`.
+- `dotenv` debug mode is enabled when the server starts.
 
 ## Getting Started
 

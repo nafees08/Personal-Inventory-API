@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const path = require('path');
 
-const dotenvPath = process.env.DOTENV_PATH || path.join(__dirname, '..', '.env');
+const dotenvPath = process.env.DOTENV_PATH || path.join(__dirname, '.env');
 require('dotenv').config({ path: dotenvPath, debug: true });
 
 const app = express();
