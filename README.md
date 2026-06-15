@@ -12,23 +12,22 @@ A RESTful API built with Node.js, Express.js, and MongoDB to manage a personal c
 ## Project Structure
 
 ```
-.
+Personal Inventory API/
 ├── .env
 ├── .gitignore
-├── package.json
-├── package-lock.json
 ├── README.md
+├── package.json
 ├── node_modules/
-├── routes/
-│   └── items.js
 ├── server.js
-└── models/
-    └── Item.js
+├── models/
+│   └── Item.js
+└── routes/
+    └── items.js
 ```
 
 ## Notes
 
-- `.env` is loaded from this folder by default.
+- `.env` is loaded from the project root by default.
 - To use a custom env file, set `DOTENV_PATH=/custom/path/.env`.
 - `dotenv` debug mode is enabled when the server starts.
 
@@ -59,7 +58,7 @@ MONGO_URI=mongodb+srv://<username>:<password>@cluster0.xxxxx.mongodb.net/invento
 ### Run the Server
 
 ```bash
-npm run dev
+npm start
 ```
 
 Server runs on `http://localhost:3000`
